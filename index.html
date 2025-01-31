@@ -92,15 +92,15 @@
         </nav>
 
         <section class="md:container mx-auto">
-            <div class="relative">
+            <div class="relative mx-4">
                 <div class="relative z-10">
-                    <h1 class="text-6xl adlam-display-regular mb-4">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                    <h1 class="text-5xl md:text-6xl adlam-display-regular mb-4">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
             <p class="text-xl sora-fonts mb-6">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
             <button class="px-8 py-3 bg-[#FFDC26] rounded-lg text-[20px] sora-fonts">Find a pet</button>
                 </div>
 
-            <div class="flex w-[900px] ml-50 -mt-48">
-                <img class="" src="c1-assets/cat-big.png" alt="">
+            <div class="">
+                <img class="flex w-[350px] md:w-[900px] ml-50 -mt-24 md:-mt-48" src="c1-assets/cat-big.png" alt="">
             </div>
             </div>
         </section>
@@ -111,7 +111,7 @@
 
         <!-- Browse By Categories section -->
         <section class="md:container mx-auto">
-            <div class="mx-4 mb-32">
+            <div class="mx-4 md:mb-32">
                 <div class="mt-36">
                     <h1 class="text-4xl adlam-display-regular mb-12">Browse By Categories</h1>
     
@@ -199,8 +199,8 @@
         </section>
 
         <!-- trending pet section -->
-         <section class="bg-[#FFF9F4] py-36">
-            <div class="md:container mx-auto">
+         <section class="md:bg-[#FFF9F4] py-36">
+            <div class=" flex justify-center md:container mx-auto">
                 <div class="mx-4">
                     <h1 class="text-4xl adlam-display-regular mb-12">Trending Pet Products</h1>
     
@@ -358,7 +358,7 @@
                             </div>
     
                             <!-- card-9 -->
-                            <div class="flex items-center bg-[#FFFFFF] rounded-lg border border-[rgba(17, 17, 17, 0.1)]">
+                            <div class="hidden lg:block flex items-center bg-[#FFFFFF] rounded-lg border border-[rgba(17, 17, 17, 0.1)]">
                                 <div class="flex my-4 mx-4 gap-4">
                                     <div class="flex items-center justify-center w-20 h-20 bg-[#FFF9F4] rounded-lg">
                                         <img src="c1-assets/dog-cartoon.png" alt="">
@@ -378,6 +378,58 @@
                      </div>
                 </div>
             </div>
+         </section>
+
+         <!-- Everyday low price section -->
+         <section class="mx-4 md:container md:mx-auto my-36">
+          <h1 class="text-4xl adlam-display-regular mb-12">Everyday low Price</h1>
+
+          <!-- card section -->
+           <div class="flex gap-7 flex-col lg:flex-row">
+            <!-- card-1 -->
+             <div class="flex flex-col lg:flex-row md:w-3/5 bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] rounded-xl">
+              <!-- text div -->
+              <div class="ml-7 lg:ml-20 my-9 md:my-auto relative z-10">
+                <h4 class="hidden lg:block text-xl sora-fonts mb-3">Under Price</h4>
+              <h1 class="text-3xl adlam-display-regular mb-2">Pet Grooming Mitt</h1>
+              <h2 class="hidden lg:block text-2xl adlam-display-regular mb-4 text-white">(Easy Hair Removal)</h2>
+              <h1 class="text-6xl adlam-display-regular text-white lg:text-black">$7.99</h1>
+              </div>
+              <!-- image div -->
+               <div>
+                <img class="w-52 lg:w-auto" src="c1-assets/cute-dog-mid.png" alt="">
+               </div>
+             </div>
+
+             <!-- card-2 -->
+              <div class="flex flex-col md:w-2/5 bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] rounded-xl">
+                <!-- text div -->
+                 <div class="mt-14 ml-14 relative z-10">
+                  <h1 class="text-3xl adlam-display-regular mb-2">T-Shirt for Dogs</h1>
+                <h1 class="text-6xl text-[#FFDC26] adlam-display-regular">$7.99</h1>
+                 </div>
+
+                 <!-- image div -->
+                  <div>
+                    <img class="ml-32 lg:ml-36 -mt-16 lg:-mt-20 w-56 lg:w-auto" src="c1-assets/cute-pet-mid.png" alt="">
+                  </div>
+              </div>
+           </div>
+         </section>
+
+         <!-- get news section -->
+         <section class="mx-4 lg:container lg:mx-auto bg-[#FFF9F4]">
+          <!-- image div -->
+          <div class="flex">
+            <img src="c1-assets/cute-pet-small.png" alt="">
+          </div>
+        <!-- text div -->
+         <div>
+          <h1 class="text-4xl adlam-display-regular">Get Pawsome News!</h1>
+          <h4 class="text-xl sora-fonts">Exclusive training tips, ticks, product deals and more.</h4>
+          <input type="email" placeholder="Enter email...">
+          <button class="px-8 py-3 bg-[#FFDC26] rounded-lg text-[20px] sora-fonts">Subscribe</button>
+         </div>
          </section>
     </main>
 
